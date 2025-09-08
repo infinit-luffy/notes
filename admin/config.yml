@@ -9,7 +9,7 @@ backend:
   auth_endpoint: /api/auth
 
 media_folder: "docs/assets/uploads"     # 文件实际存放路径（仓库内）
-public_folder: "/assets/uploads"        # 站点访问路径
+public_folder: "/notes/assets/uploads"        # 站点访问路径
 
 local_backend: false
 
