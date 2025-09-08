@@ -5,7 +5,7 @@ backend:
   # 使用 GitHub OAuth 需要一个代理（Edge Function/Serverless）。
   # 将 base_url 指向你的 OAuth 代理域名，并确保该域名在 GitHub OAuth App 的回调白名单中。
   # 参考: https://decapcms.org/docs/backends-overview/
-  base_url: https://<your-oauth-proxy-domain>   # ← 替换为你部署 OAuth 代理的域名
+  base_url: https://notestyles.vercel.app   # ← 替换为你部署 OAuth 代理的域名
   auth_endpoint: /api/auth
 
 media_folder: "docs/assets/uploads"     # 文件实际存放路径（仓库内）
