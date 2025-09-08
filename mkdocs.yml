@@ -1,0 +1,40 @@
+site_name: Darwin Notes
+site_url: https://infinit-luffy.github.io/notes/
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+
+plugins:
+  - search
+
+extra:
+  generator: false
+
+repo_url: https://github.com/infinit-luffy/notes
+edit_uri: edit/main/docs/
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji
+  - attr_list
+
+# If you prefer a manual nav, uncomment and adjust:
+# nav:
+#   - 首页: index.md
+#   - 笔记: 
+#     - notes/
